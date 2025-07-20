@@ -9,7 +9,7 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: #e7e2e2;
   background-color: #fff;
 }
 
@@ -22,19 +22,19 @@ a {
 .navbar {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 150%;
   background: #111;
-  color: #fff;
-  padding: 15px 30px;
+  color: #ec6d6d;
+  padding: 15px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 1000;
+  z-index: 100;
 }
 
 .nav-links {
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 
 .nav-links li {
@@ -608,16 +608,16 @@ body.dark-mode a {
 }
 .gallery-carousel h2 {
   font-size: 2rem;
-  color: #e67e22;
+  color: #221f1cff;
   margin-bottom: 20px;
 }
 
 /* === Carousel CSS uniquement === */
 .carousel-wrapper {
   overflow: hidden;
-  max-width: 90%;
+  max-width: 100%;
   margin: 0 auto;
-  border-radius: 12px;
+  border-radius: 14px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
