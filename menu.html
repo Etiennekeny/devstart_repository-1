@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu - Le Délice du Chef</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <script defer src="/scripts.js"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1 class="logo">Le Délice du Chef</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="a-propos.html">À propos</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="equipe.html">Équipe</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Section Menu -->
+  <section class="menu-section">
+    <h2>Notre Carte</h2>
+
+    <!-- Entrées -->
+    <div class="menu-category">
+      <h3>Entrées</h3>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <img src="/images/salad.jpg" alt="Entrée 1">
+          <h4>Salade de chèvre chaud</h4>
+          <p>800 GDS</p>
+        </div>
+        <div class="menu-item">
+          <img src="/images/potiron.jpg" alt="Entrée 2">
+          <h4>Velouté de potiron</h4>
+          <p>750 GDS</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Plats -->
+    <div class="menu-category">
+      <h3>Plats</h3>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <img src="/images/kanard.jpg" alt="Plat 1">
+          <h4>Magret de canard</h4>
+          <p>1000 GDS</p>
+        </div>
+        <div class="menu-item">
+          <img src="/images/saunon.jpg" alt="Plat 2">
+          <h4>Filet de saumon grillé</h4>
+          <p>750 GDS</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Desserts -->
+    <div class="menu-category">
+      <h3>Desserts</h3>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <img src="/images/kola.jpg" alt="Dessert 1">
+          <h4>Fondant au chocolat</h4>
+          <p>250 GDS</p>
+        </div>
+        <div class="menu-item">
+          <img src="/images/tarte.jpg" alt="Dessert 2">
+          <h4>Tarte tatin maison</h4>
+          <p>250 GDS</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Le Délice du Chef. Tous droits réservés.</p>
+  </footer>
+
+  <!-- Lightbox image viewer -->
+<div id="lightbox" class="lightbox">
+  <span class="close-btn">&times;</span>
+  <img class="lightbox-img" src="" alt="Agrandissement plat">
+</div>
+
+</body>
+</html>
